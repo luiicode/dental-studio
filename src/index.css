@@ -5,6 +5,16 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+    --color-backgrond-primary: #F8FAFC; /* principal background */
+    --color-backgrond-secondary: #FFFFFF; /* section and cards background */
+    --color-text-primary: #0F172A; /* title color */
+    --color-text-secondary: #475569; /* Paragraphs and secondary text color */
+    --color-accent-primary: #0284C7; /* bg-botton CTA and primary links color */
+    --color-accent-secondary: #0EA5E9; /* borders, icons and hover effect color */
+    --color-botton-text: #FFFFFF; /* botton text color */
+}
+
 @theme inline {
     --font-heading: var(--font-sans);
     --font-sans: 'Geist Variable', sans-serif;
@@ -118,13 +128,15 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+    * {
+        @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+
+    body {
+        @apply bg-background text-foreground;
     }
-  html {
-    @apply font-sans;
+
+    html {
+        @apply font-sans;
     }
 }
