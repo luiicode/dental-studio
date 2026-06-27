@@ -5,9 +5,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html, body {
+    background-color: #F8FAFC;
+}
+
 @theme {
-    --color-backgrond-primary: #F8FAFC; /* principal background */
-    --color-backgrond-secondary: #FFFFFF; /* section and cards background */
+    --color-background-primary: #F8FAFC; /* principal background */
+    --color-background-secondary: #FFFFFF; /* section and cards background */
     --color-text-primary: #0F172A; /* title color */
     --color-text-secondary: #475569; /* Paragraphs and secondary text color */
     --color-accent-primary: #0284C7; /* bg-botton CTA and primary links color */
