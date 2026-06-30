@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button.tsx";
 
 export function Testimonials() {
     return (
-        <Card role={"article"}
+        <Card id='testimonio' role={"article"}
               className='grid grid-cols-1 gap-6 lg:grid-cols-2 px-4 md:px-8 lg:px-12 bg-accent-primary border rounded-2xl w-10/12 max-w-6xl mx-auto shadow-lg mb-20'>
             <CardContent className='flex flex-col gap-5 lg:gap-10 items-center justify-center py-5 lg:py-0'>
                 <h1 className='text-4xl text-botton-text font-extrabold'>¿Listo para tu primera visita?</h1>
