@@ -3,6 +3,7 @@ import {Hero} from "@/components/section/Hero.tsx";
 import {Services} from "@/components/section/Services.tsx";
 import {Testimonials} from "@/components/section/Testimonials.tsx";
 import {Footer} from "@/components/layout/Footer.tsx";
+import {CTAButton} from "@/components/section/CTA.tsx";
 
 export function DentalStudio() {
     return (
@@ -15,6 +16,7 @@ export function DentalStudio() {
                 <Services/>
                 <Testimonials/>
                 <Footer/>
+                <CTAButton/>
             </section>
         </div>
     );
