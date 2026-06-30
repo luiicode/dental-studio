@@ -31,8 +31,7 @@ export function Navbar() {
                            className='font-semibold text-text-primary text-lg cursor-pointer'>Servicio</a></li>
                     <li><a onClick={() => scrollToSection('testimonio')}
                            className='font-semibold text-text-primary text-lg cursor-pointer'>Testimonio</a></li>
-                    <li><a onClick={() => scrollToSection('contactanos')}
-                           className='font-semibold text-text-primary text-lg cursor-pointer'>Contactanos</a></li>
+                    <li><a className='font-semibold text-text-primary text-lg cursor-pointer'>Contactanos</a></li>
                 </ul>
                 <Button size='lg' variant='outline'
                         className='bg-accent-primary text-botton-text text-lg py-2 px-4 hover:bg-accent-secondary hover:text-botton-text'>
