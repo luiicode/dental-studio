@@ -6,7 +6,7 @@ import {Card, CardContent, CardTitle} from "@/components/ui/card.tsx";
 export function Hero() {
     return (
         <section id='inicio'
-                 className='w-full mt-[calc(6rem+env(safe-area-inset-top))] px-4 md:px-8 lg:px-12 md:pt-10 grid grid-cols-1 lg:grid-cols-2'>
+                 className='w-full scroll-mt-24 mt-[calc(6rem+env(safe-area-inset-top))] px-4 md:px-8 lg:px-12 md:pt-10 grid grid-cols-1 lg:grid-cols-2'>
             <section className='flex flex-col gap-4 lg:justify-center'>
                 <Badge variant='outline'
                        className='bg-accent-secondary/30 text-accent-primary font-bold uppercase py-3 px-3 flex flex-row items-center gap-2'>

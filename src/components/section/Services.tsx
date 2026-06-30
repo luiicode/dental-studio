@@ -3,7 +3,7 @@ import {ServiceCard} from "@/data/DataServiceCard.tsx";
 
 export function Services() {
     return (
-        <section id='servicio' className='mt-20 flex flex-col gap-16 px-4 md:px-8 lg:px-12'>
+        <section id='servicio' className='scroll-mt-24 mt-20 flex flex-col gap-16 px-4 md:px-8 lg:px-12'>
             <section className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
                 <article className='flex flex-col gap-2'>
                     <h2 className='text-text-primary font-bold text-3xl'>Cuidado integral para cada etapa</h2>
